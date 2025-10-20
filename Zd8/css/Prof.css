@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fontik;
+}
+@font-face {
+    font-family: fontik;
+    src: url(../font/Inter_24pt-Regular.ttf);
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #0e0e0e;
+    background-repeat: no-repeat;
+    background-size: cover, 70%;
+    background-position: 0% center, 100% center;
+}
+.header_section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    background-image: url(../img/back_index_prof.png), linear-gradient(90deg, #E73AB8,#35005F);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% center;
+}
+.header_nav{
+    height: 100%;
+    padding-left: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.header_nav a{
+    writing-mode: vertical-rl;
+    color: white;
+    text-decoration: none;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.left_title{
+    display: flex;
+    margin-top: -10px;
+    gap: 60px;
+}
+.left_title p{
+    font-size: 44px;
+    font-weight: bold;
+    color: white;
+    width:54%;
+}
+.left_title span{
+    font-size: 90px;
+    font-style: italic;
+}
+.infa{
+    color: white;
+    padding-left: 2%;
+    font-size: 20px;
+}
+.left_btn{
+    padding: 10px 70px;
+    color:#E73AB8;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.left_btn:hover{
+    background-color: #E73AB8;
+    color:white;
+    transition: 0.5s;
+}
+.Usl{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/zone_back.png);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.Usl legend{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.Usl fieldset{
+    margin: auto;
+    border-radius: 50px;
+    width: 90%;
+    height: 80%;
+    align-content: center;
+}
+.standart{
+    width: 20%;
+    height: 80%;
+    color:white;
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+    margin-left: 10%;
+    border-radius: 5px;
+}
+.Play{
+    color: #403f3f;
+    margin-top: 4vh;
+}
+.standart h3{
+    font-style: italic;
+    font-size: 40px;
+}
+.zone p{
+    font-size: 24px;
+}
+.standartimg img{
+    width: 20vh;
+    height: 30vh;
+    padding: 15px;
+    border:#E73AB8 2px solid;
+    border-radius: 10px;
+}
+.standartimg{
+    
+}
+body a:hover{
+    font-weight: bold;
+} 
