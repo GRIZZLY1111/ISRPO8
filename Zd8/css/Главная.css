@@ -85,7 +85,7 @@ main{
     font-size: 40px;
 }
 .right_item span{
-     font-size: 60px;
+    font-size: 60px;
 }
 .right_btn{
     position: absolute;
@@ -103,8 +103,8 @@ main{
     border: #E73AB8 2px solid;
     
 }
+
 .blue_btn:hover{
     background-color: #0e0e0e;
     border: #149EF2 2px solid;
-    
 }
